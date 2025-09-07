@@ -3,7 +3,7 @@
 ## 📂 Isi
 - `manifest.json` → metadata resource pack.
 - `textures/items/` → ikon custom untuk item `scanner`.
-- `texts/` → string / localization (opsional).
+- `texts/` → string / localization.
 - File resource lain bila ada kebutuhan visual tambahan.
 
 ## 🎯 Fungsi
