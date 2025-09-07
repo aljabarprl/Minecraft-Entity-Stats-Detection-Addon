@@ -4,13 +4,13 @@
 Berisi source code **TypeScript** untuk addon Entity Stats Detection HUD.
 
 ## 📂 Struktur
-- `src/` → kode utama (contoh: `main.ts`).
+- `kode utama` (`main.ts`).
 - `BP/scripts/` → hasil compile (`main.js`).
 
 ## 🔄 Proses Compile
 1. Pastikan dependency sudah ter-install:
    ```node
-   npm install
+   npm i @minecraft/server@1.13.0
 
 2. Compile sekali:
    ```node   
