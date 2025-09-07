@@ -4,7 +4,6 @@
 - `manifest.json` → metadata addon (UUID, version, dependencies).
 - `scripts/` → hasil compile TypeScript (`main.js`) yang dijalankan Minecraft.
 - `items/` → custom item (`scanner` dengan custom_components).
-- `other BP configs` → file tambahan bila dibutuhkan.
 
 ## ⚡ Fitur
 - Custom item (`scanner`) dengan komponen:
