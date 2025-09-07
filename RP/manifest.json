@@ -1,0 +1,44 @@
+{
+    "format_version": 2,
+    "header": 
+    {
+        "description": "Resource Pack for Entity Detector",
+        "name": "§bEntity Stats Detector RP",
+        "uuid": "b9a60936-2b75-49fb-968f-bf31a622aaf7",
+        "version": [
+			0,
+			0,
+			1
+		],
+		"min_engine_version": [
+			1,
+			21,
+			0
+		]
+    },
+    "metadata": {
+		"authors": [
+            "Pasa Ltd.",
+            "https://github.com/aljabarprl"
+        ]
+	},
+    "modules": 
+    [
+        {
+            "type": "resources",
+            "uuid": "ed584a2d-d0d6-4931-95b9-87ca4ccc9c9f",
+            "name": "Skill Resource Module",
+            "version": [
+				0,
+				0,
+				1
+			]
+        }
+    ],
+    "dependencies": [
+        {
+            "uuid": "79d93176-d600-4806-aed3-6ce4842b85a3",
+            "version": [0, 0, 1]
+        }
+    ]
+}

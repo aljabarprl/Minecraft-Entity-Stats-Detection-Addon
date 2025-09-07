@@ -1,0 +1,32 @@
+{
+  "format_version": "1.20.80",
+  "minecraft:item": {
+    "description": {
+      "identifier": "skill:scanner",
+      "menu_category": {
+         "category": "equipment",
+         "group": "",
+         "is_hidden_in_commands": false
+        }
+    },
+    "components": {
+      "minecraft:icon": "skill_scanner",
+      "minecraft:max_stack_size": 1,
+      "minecraft:glint": true,
+      "minecraft:hand_equipped": false,
+      "minecraft:interact_button": "Use Card",
+      "minecraft:display_name": {
+        "value": "§bEntity Scanner"
+      },
+      "minecraft:cooldown": {
+        "category": "hudscanner",
+        "duration": 3
+      },
+      "minecraft:can_destroy_in_creative": {
+            "value": false
+        },
+	  "minecraft:allow_off_hand": false,
+      "minecraft:custom_components": ["skill:health_hud"]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# 🧩 Behavior Pack (BP)
+
+## 📂 Isi
+- `manifest.json` → metadata addon (UUID, version, dependencies).
+- `scripts/` → hasil compile TypeScript (`main.js`) yang dijalankan Minecraft.
+- `items/` → definisi item custom (misalnya `scanner` dengan custom_components).
+- `other BP configs` → file tambahan bila dibutuhkan.
+
+## ⚡ Fitur
+- Custom item (`scanner`) dengan komponen:
+  - `skill:health_hud` → trigger HUD toggle/lock.
+  - `minecraft:cooldown` → overlay cooldown di hotbar.
+- Integration dengan `@minecraft/server` API.
+- Semua logic addon berjalan di **Behavior Pack** ini.

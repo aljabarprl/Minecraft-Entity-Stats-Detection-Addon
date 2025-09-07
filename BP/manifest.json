@@ -1,0 +1,61 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "min_engine_version": [
+            1,
+            20,
+            0
+        ],
+        "uuid": "79d93176-d600-4806-aed3-6ce4842b85a3",
+        "version" : [
+            0,
+            0,
+            1
+        ]
+    },
+    "modules": [
+        {
+            "type": "data",
+            "uuid": "ad86c01b-faed-40a3-851a-1976cf39a4a6",
+            "version" : [
+                0,
+                0,
+                1
+            ]
+        },
+        {
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "uuid": "55ff55c7-f2b7-4313-9ad5-342a8938af38",
+            "version" : [
+                0,
+                0,
+                1
+            ]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.13.0"
+        },
+        {
+            "module_name": "@minecraft/server-ui",
+            "version": "1.2.0"
+        },
+        {
+            "uuid": "b9a60936-2b75-49fb-968f-bf31a622aaf7",
+            "version": [0, 0, 1]
+        }
+    ],
+    "metadata": {
+        "authors": [
+            "Pasa Ltd.",
+            "https://github.com/aljabarprl"
+        ],
+        "product_type": "addon"
+    }
+}
