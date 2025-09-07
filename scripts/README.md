@@ -10,7 +10,7 @@ Berisi source code **TypeScript** untuk addon Entity Stats Detection HUD.
 ## 🔄 Proses Compile
 1. Pastikan dependency sudah ter-install:
    ```node
-   npm install
+   npm i @minecraft/server@1.13.0
 
 2. Compile sekali:
    ```node   
