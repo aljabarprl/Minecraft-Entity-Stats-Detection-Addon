@@ -16,7 +16,7 @@ Fitur utama:
 
 ## 🚀 Cara Install
 1. Compile script TypeScript (`tsc`) → hasil ke folder `BP/scripts/`. (atau jika tidak ingin develop compile bisa langsung ke step 2)
-2. Compress `BP` dan `RP` menjadi ZIP → rename ke `.mcaddon`.
+2. Compress `BP` dan `RP` menjadi ZIP → rename format `.zip` ke `.mcaddon`.
 3. Klik file `.mcaddon` → buka dengan Minecraft Bedrock.
 4. Aktifkan di dunia Minecraft (pastikan *Enable Beta APIs* aktif).
 5. Nikmati fitur **Entity Stats Detection HUD**.
