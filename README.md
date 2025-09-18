@@ -1,4 +1,4 @@
-# 🩺 Minecraft Entity Stats Detection HUD Addon
+# Minecraft Entity Stats Detection HUD Addon
 
 Addon scripting untuk Minecraft Bedrock Edition menggunakan **TypeScript**.  
 Fitur utama:
@@ -9,12 +9,12 @@ Fitur utama:
 - Cooldown overlay (seperti mekanisme shield) untuk mencegah spam.
 - Ditulis dalam **TypeScript**, compile ke **JavaScript** untuk dijalankan di Minecraft.
 
-## 📂 Struktur
+## Struktur
 - **BP/** → Behavior Pack (script dan logic addon)
 - **RP/** → Resource Pack (ikon, tampilan visual, resource tambahan)
 - **scripts/** → Source TypeScript (`main.ts`) + hasil compile (`main.js`)
 
-## 🚀 Cara Install
+## Cara Install
 1. Compile script TypeScript (`tsc`) → hasil ke folder `BP/scripts/`. (atau jika tidak ingin develop compile bisa langsung ke step 2)
 2. Compress `BP` dan `RP` menjadi ZIP → rename format `.zip` ke `.mcaddon`.
 3. Klik file `.mcaddon` → buka dengan Minecraft Bedrock.
